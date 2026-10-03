@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>参谋剪藏 · 设置</title>
+	<link rel="stylesheet" href="ui.css">
+</head>
+<body class="options">
+	<h1>参谋剪藏 · 设置</h1>
+	<p class="hint">所有设置只保存在这台电脑的浏览器里。</p>
+
+	<h2>Obsidian</h2>
+	<label for="vault">笔记库名称</label>
+	<input id="vault" type="text" placeholder="留空则存进 Obsidian 当前打开的笔记库">
+	<label for="inbox">收件箱目录</label>
+	<input id="inbox" type="text">
+	<p class="hint">Jev 拿不准、没有合适目录或没启用时，剪藏存到这里。</p>
+
+	<h2>归档目录</h2>
+	<label for="folders">每行一个：目录路径 | 什么内容该放这里</label>
+	<textarea id="folders" spellcheck="false"></textarea>
+	<p class="hint">说明写得越具体，Jev 判断越准。目录不存在时 Obsidian 会自动创建。</p>
+
+	<h2>标签</h2>
+	<label for="tags">每行一个：标签名 | 什么样的文章该打这个标签</label>
+	<textarea id="tags" spellcheck="false"></textarea>
+
+	<h2>Jev 判断</h2>
+	<label class="check"><input id="jevEnabled" type="checkbox"> 剪藏时让 Jev 判断目录、标签和参考价值</label>
+	<label for="jevKey">TypeSafe API 密钥</label>
+	<input id="jevKey" type="password" autocomplete="off" placeholder="在 typesafe.ai 申请">
+	<label for="profile">我是做什么的（用来判断一篇文章对你有多大参考价值）</label>
+	<input id="profile" type="text">
+	<p class="hint">启用后，每次剪藏会把文章标题和正文开头约 6000 字发送给 TypeSafe 做判断。不启用则不发送任何内容。</p>
+
+	<div class="actions">
+		<button id="save" class="primary" type="button">保存设置</button>
+		<button id="export" type="button">导出配置</button>
+		<button id="import" type="button">导入配置</button>
+		<input id="importFile" type="file" accept="application/json,.json" hidden>
+	</div>
+	<p id="status" class="status"></p>
+
+	<script src="options.js"></script>
+</body>
+</html>

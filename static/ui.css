@@ -1,0 +1,76 @@
+:root {
+	--paper: #faf8f3;
+	--ink: #111111;
+	--yellow: #ffd900;
+	--gray: #686860;
+	--line: #e4e0d5;
+}
+
+* { box-sizing: border-box; }
+
+body {
+	margin: 0;
+	background: var(--paper);
+	color: var(--ink);
+	font: 14px/1.6 "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+label { display: block; margin: 12px 0 4px; color: var(--gray); font-size: 12px; }
+
+input[type="text"], input[type="password"], select, textarea {
+	width: 100%;
+	padding: 7px 9px;
+	border: 1px solid var(--line);
+	border-radius: 6px;
+	background: #fff;
+	color: var(--ink);
+	font: inherit;
+}
+
+input:focus-visible, select:focus-visible, textarea:focus-visible, button:focus-visible {
+	outline: 2px solid var(--ink);
+	outline-offset: 1px;
+}
+
+button {
+	padding: 7px 12px;
+	border: 1px solid var(--line);
+	border-radius: 6px;
+	background: #fff;
+	color: var(--ink);
+	font: inherit;
+	cursor: pointer;
+}
+
+button:disabled { opacity: .5; cursor: default; }
+
+button.primary { background: var(--yellow); border-color: var(--yellow); font-weight: 600; }
+
+button.link { padding: 0; border: 0; background: none; color: var(--gray); text-decoration: underline; }
+
+.hint, .status { margin: 4px 0 0; color: var(--gray); font-size: 12px; }
+.status:empty { display: none; }
+.status.error { color: #b3261e; }
+
+/* 弹窗 */
+.popup { width: 340px; padding: 14px 16px 16px; }
+.popup header { display: flex; justify-content: space-between; align-items: center; font-size: 15px; }
+.popup .primary { width: 100%; margin-top: 14px; padding: 10px; font-size: 15px; }
+.popup .row { display: flex; gap: 8px; margin-top: 8px; }
+.popup .row button { flex: 1; }
+.popup .status { margin-top: 10px; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { padding: 2px 10px; border-radius: 999px; font-size: 13px; }
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: #fff; }
+
+.badge { display: inline-block; margin-top: 10px; padding: 1px 8px; border-radius: 4px; background: var(--line); font-size: 12px; }
+.badge[data-level="高"] { background: var(--yellow); }
+
+/* 设置页 */
+.options { max-width: 680px; margin: 0 auto; padding: 32px 24px 64px; }
+.options h1 { font-size: 22px; margin: 0 0 4px; }
+.options h2 { font-size: 16px; margin: 32px 0 0; padding-top: 20px; border-top: 1px solid var(--line); }
+.options textarea { min-height: 150px; font-size: 13px; line-height: 1.7; }
+.options .check { display: flex; align-items: center; gap: 8px; margin-top: 12px; color: var(--ink); font-size: 14px; }
+.options .actions { display: flex; gap: 8px; align-items: center; margin-top: 28px; }

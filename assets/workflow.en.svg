@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<rect width="1200" height="300" rx="24" fill="#faf8f3"/>
+<text x="52" y="62" font-size="24" font-weight="700" fill="#111111">One clip with Canmou Clipper</text>
+<rect x="52" y="110" width="196" height="110" rx="14" fill="#ffffff" stroke="#e4e0d5" stroke-width="2"/>
+<text x="150.0" y="158" text-anchor="middle" font-size="19" font-weight="700" fill="#111111">Click the icon</text>
+<text x="150.0" y="190" text-anchor="middle" font-size="15" fill="#686860">on any page</text>
+<path d="M253 165.0 h20 m-7 -6 l7 6 l-7 6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="282" y="110" width="196" height="110" rx="14" fill="#ffffff" stroke="#e4e0d5" stroke-width="2"/>
+<text x="380.0" y="158" text-anchor="middle" font-size="19" font-weight="700" fill="#111111">Extract article</text>
+<text x="380.0" y="190" text-anchor="middle" font-size="15" fill="#686860">to Markdown</text>
+<path d="M483 165.0 h20 m-7 -6 l7 6 l-7 6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="512" y="110" width="196" height="110" rx="14" fill="#ffd900" stroke="#ffd900" stroke-width="2"/>
+<text x="610.0" y="158" text-anchor="middle" font-size="19" font-weight="700" fill="#111111">Jev judges</text>
+<text x="610.0" y="190" text-anchor="middle" font-size="15" fill="#33332e">folder · tags · value</text>
+<path d="M713 165.0 h20 m-7 -6 l7 6 l-7 6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="742" y="110" width="196" height="110" rx="14" fill="#ffffff" stroke="#e4e0d5" stroke-width="2"/>
+<text x="840.0" y="158" text-anchor="middle" font-size="19" font-weight="700" fill="#111111">You confirm</text>
+<text x="840.0" y="190" text-anchor="middle" font-size="15" fill="#686860">unsure → inbox</text>
+<path d="M943 165.0 h20 m-7 -6 l7 6 l-7 6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="972" y="110" width="196" height="110" rx="14" fill="#ffffff" stroke="#e4e0d5" stroke-width="2"/>
+<text x="1070.0" y="158" text-anchor="middle" font-size="19" font-weight="700" fill="#111111">Save to Obsidian</text>
+<text x="1070.0" y="190" text-anchor="middle" font-size="15" fill="#686860">note with properties</text>
+<text x="52" y="262" font-size="16" fill="#686860">With Jev off, step three is skipped and everything goes to the inbox. Reader mode does not use this flow.</text></svg>

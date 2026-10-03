@@ -1,0 +1,23 @@
+{
+	"name": "canmou-clipper",
+	"version": "0.1.0",
+	"private": true,
+	"description": "参谋剪藏：把网页存进 Obsidian，由 Jev 判断归档目录和标签的 Chrome 扩展",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"build": "node build.mjs",
+		"typecheck": "tsc --noEmit",
+		"test": "vitest run",
+		"check": "npm run typecheck && npm test && npm run build"
+	},
+	"dependencies": {
+		"defuddle": "^0.19.4"
+	},
+	"devDependencies": {
+		"@types/chrome": "^0.3.4",
+		"esbuild": "^0.28.0",
+		"typescript": "^7.0.2",
+		"vitest": "^5.0.3"
+	}
+}
