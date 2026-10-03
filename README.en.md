@@ -133,7 +133,7 @@ This runs the type check, unit tests and build. Source is in `src/`, static file
 
 ## License and credits
 
-[MIT](LICENSE). Article extraction uses [Defuddle](https://github.com/kepano/defuddle) (MIT). The product idea draws on [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) and [Qiaomu Clipper](https://github.com/joeseesun/qiaomu-clipper); the code is written independently.
+[MIT](LICENSE). Article extraction uses [Defuddle](https://github.com/kepano/defuddle) (MIT).
 
 ## Other BaoCanMou open-source projects
 

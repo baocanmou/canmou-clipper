@@ -133,7 +133,7 @@ npm run check
 
 ## 许可与致谢
 
-[MIT](LICENSE)。正文提取使用 [Defuddle](https://github.com/kepano/defuddle)（MIT）。产品形态参考了 [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) 和[乔木剪藏](https://github.com/joeseesun/qiaomu-clipper)，代码为独立编写。
+[MIT](LICENSE)。正文提取使用 [Defuddle](https://github.com/kepano/defuddle)（MIT）。
 
 ## 包参谋其他开源项目
 
